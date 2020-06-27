@@ -1,0 +1,151 @@
+/*--------------------------------- By Bhaskar Maity --------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*navbar*/
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #33ffd6, #00b38f);
+    padding: 0 !important;
+
+}
+
+.navbar-brand img {
+    padding-left: 10px;
+    /*    opacity: 0.5;*/
+    /*    z-index: -1;*/
+
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #ffffff;
+}
+
+/*start banner*/
+
+#banner {
+    background-image: linear-gradient(to right, #33ffd6, #00b38f);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-title {
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.btn{
+    margin: 20px 0px;
+    border: none;
+    background-image:linear-gradient(to left, #194d19, #133913);
+    color: #fff;
+    
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+/*
+.bottom-img{
+    width: 100%;
+    padding: 0 0;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+*/
+
+
+/*end banner*/
+
+/*-----start services--------*/
+#services{
+    padding: 0 10px;
+    margin-top: 60px;
+}
+
+/*.title::before{
+    content: '';
+    
+}*/
+
+.ribbon{
+    height: 4px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#00e699;
+    
+}
+.ribbon-little{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: -34px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#00e699;
+}
+
+
+/*-----end services--------*/
+
+
+/*start client say*/
+#client{
+    margin: 90px 0;
+}
+.client{
+    border-right: 5px solid #00e699;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.client img{
+    height: 50px;
+    border-radius: 20px;
+    margin: 0 10px;
+    display: inline-block;
+}
+.user{
+    display: inline-block;
+    font-size: 12px;
+}
+/*end client say*/
+
+/*START SOCIAL MEDIA*/
+#social-media{
+    margin: auto;
+}
+.social-icons img{
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+/*END SOCIAL MEDIA*/
+
+/*start footer */
+#footer{
+    background-image: linear-gradient(to left, #33ffd6, #00b38f);
+    font: bold;
+    text-align:middle;
+}
+
+/*end footer */
